@@ -2,9 +2,7 @@
   <div id="app">
     <RootHeader></RootHeader>
     <div class="container">
-      <header class="page-header row">
-        <h2>Olá!</h2>
-      </header>
+      <router-view></router-view>
     </div>
   </div>
 </template>

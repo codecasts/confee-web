@@ -4,6 +4,6 @@ import routes from './routes'
 
 Vue.use(VueRouter)
 
-const router = new VueRouter({ routes })
+const router = new VueRouter({ routes, linkActiveClass: 'active' })
 
 export default router

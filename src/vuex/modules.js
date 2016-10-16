@@ -1,3 +1,3 @@
-import { vuex as auth } from '../modules/auth'
+import { vuex as app } from '../app'
 
-export default { auth }
+export default { ...app }

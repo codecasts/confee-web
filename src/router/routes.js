@@ -1,8 +1,7 @@
-import { routes as dashboard } from '../modules/dashboard'
-import { routes as auth } from '../modules/auth'
+import { routes as app } from '../app'
 
 const root = [
   { path: '/', redirect: '/dashboard' }
 ]
 
-export default [ ...root, ...dashboard, ...auth ]
+export default [ ...root, ...app ]

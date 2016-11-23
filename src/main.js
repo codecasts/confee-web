@@ -10,11 +10,17 @@ Vue.use(Loader)
 
 /* eslint-disable no-new */
 new Vue({
+  data: {
+    name: 'vinicius'
+  },
   router,
   store,
   el: '#app',
   render: h => h(App),
   mounted () {
-    Vue.$myLog(this)
+    this.$loader.show()
+    setTimeout(() => {
+      this.$loader.hide()
+    }, 1000)
   }
 })

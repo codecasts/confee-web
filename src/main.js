@@ -6,7 +6,7 @@ import router from './router'
 import store from './vuex'
 import Loader from './plugins/loader'
 
-Vue.use(Loader)
+Vue.use(Loader, store)
 
 /* eslint-disable no-new */
 new Vue({

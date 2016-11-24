@@ -1,1 +1,1 @@
-export const setShow = 'CODECASTS_LOADER::setShow'
+export const setShow = 'CODECASTS_LOADER/setShow'

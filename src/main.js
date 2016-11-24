@@ -16,11 +16,5 @@ new Vue({
   router,
   store,
   el: '#app',
-  render: h => h(App),
-  mounted () {
-    this.$loader.show()
-    setTimeout(() => {
-      this.$loader.hide()
-    }, 1000)
-  }
+  render: h => h(App)
 })

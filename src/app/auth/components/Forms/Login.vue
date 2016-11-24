@@ -15,9 +15,11 @@ export default {
     ...mapActions(['attemptLogin']),
     doLogin () {
       const user = this.user
+      this.$loader.show()
       this.attemptLogin({...user})
         .then(() => {
           this.$router.push('/')
+          this.$loader.hide()
         })
     }
   },
